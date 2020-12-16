@@ -11,7 +11,7 @@ Compiler Features:
 Bugfixes:
  * Commandline Interface: Fix extra newline character being appended to sources passed through standard input, affecting their hashes.
  * SMTChecker: Fix internal error in magic type access (``block``, ``msg``, ``tx``).
-
+ * Parser: Properly reject misformatted version pragmas (e.g. ``^0^1`` was misparsed).
 
 
 
